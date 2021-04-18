@@ -46,7 +46,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: var(--brand-secondary);
+        background-color: var(--background-default);
         color: var(--text-default);
     }
 

@@ -4,15 +4,15 @@ export const Container = styled.div`
     padding: 0 15px;
     margin: 0 auto;
 
-    @media (min-width: 1600px) {
+    /* @media (min-width: 1600px) {
         max-width: 1456px
     }
 
     @media (min-width: 1320px) and (max-width: 1600px) {
         max-width: 1248px
-    }
+    } */
 
-    @media (min-width: 1200px) and (max-width: 1320px) {
+    @media (min-width: 1200px) {
         max-width: 1140px
     }
 
