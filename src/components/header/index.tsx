@@ -8,7 +8,6 @@ export default function Header() {
                 <TopHeader>
                     <Container>
                         <span>Coworkee - SMA Conjunto B, Loja 19 - Gama, Brasília/DF</span>
-                        <span>(61) 98483-7473</span>
                     </Container>
                 </TopHeader>
 

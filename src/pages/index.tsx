@@ -1,9 +1,11 @@
 import Header from "../components/header";
+import Expertise from './../components/expertise';
 
 export default function App() {
     return (
         <>
             <Header></Header>
+            <Expertise></Expertise>
             <h1>ASDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSMKASKDLNKLANDSAKSND</h1>
             <h1>ASDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSMKASKDLNKLANDSAKSND</h1>
             <h1>ASDDadDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSMKASKDLNKLANDSAKSND</h1>

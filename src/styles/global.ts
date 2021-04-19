@@ -2,12 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --brand-primary: #B9A05C;
+        --brand-primary: #8e7f4c;
         --brand-secondary: #262626;
-        --background-default: #f2f3f5;
-        --white: #ffffff;
-        --text-default: #fff;
-        --text-secondary: #b2b9ff;
+        --background-default: #fff;
+        --text-primary: #fff;
+        --text-secondary: #666;
+
         --title: #2e384d;
         --red: #e83f5b;
         --red-light: #fff5f5;
@@ -47,7 +47,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: var(--background-default);
-        color: var(--text-default);
+        color: var(--text-primary);
     }
 
     button {

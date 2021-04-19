@@ -15,11 +15,7 @@ export const TopHeader = styled.div`
         display: flex;
         align-items: center;
 
-        span {
-            font-size: 12px;
-
-            &:first-child { margin-right: 60px; }
-        }
+        span { font-size: 12px; }
     }
 `;
 
