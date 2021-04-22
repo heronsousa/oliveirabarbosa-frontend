@@ -26,11 +26,11 @@ export const OurQuote = styled.div`
         font-weight: 200;
 
         &::before{
-            content: '';
             width: 15px;
-            background: var(--background-default);
             height: 1px;
             margin-right: 10px;
+            content: '';
+            background: var(--background-default);
         }
     }
 `;
