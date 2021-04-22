@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Expertises = styled.div`
-    margin: 90px 0;
+    margin: 70px 0;
 `;
 
 export const Title = styled.h1`
@@ -26,6 +26,7 @@ export const Description = styled.div`
         width: 80px;
         background: var(--brand-primary);
         height: 4px;
+        border-radius: 2px;
     }
 `;
 
@@ -45,14 +46,14 @@ export const Area = styled.div`
 
     h2 {
         color: var(--text-secondary);
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 500;
         margin: 10px 0 5px;
     }
 
     p {
         color: var(--text-secondary);
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     &:hover {
