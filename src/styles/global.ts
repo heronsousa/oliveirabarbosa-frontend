@@ -6,7 +6,8 @@ export const GlobalStyle = createGlobalStyle`
         --brand-secondary: #262626;
         --background-default: #fff;
         --text-primary: #fff;
-        --text-secondary: #666;
+        --text-secondary: #212121;
+        --disable-slider: #666;
 
         --title: #2e384d;
         --red: #e83f5b;
@@ -17,7 +18,6 @@ export const GlobalStyle = createGlobalStyle`
         --purple-dark: #4953b8;
         --twitter: #2aa9e0;
         --line: #dcdde0;
-        --side-icon: #c4c4c4;
     }
 
     @media (max-width: 1080px) {
@@ -42,7 +42,7 @@ export const GlobalStyle = createGlobalStyle`
     input,
     textarea,
     button {
-        font: 400 1rem 'Inter', sans-serif;
+        font: 400 1rem 'Poppins', sans-serif;
     }
 
     body {

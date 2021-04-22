@@ -4,6 +4,8 @@ export const HeaderBackground = styled.div`
     position: fixed;
     width: 100%;
     margin-bottom: 100px;
+    z-index: 10;
+    border-bottom: 1px solid var(--background-default);
 `;
 
 export const TopHeader = styled.div`
@@ -15,7 +17,7 @@ export const TopHeader = styled.div`
         display: flex;
         align-items: center;
 
-        span { font-size: 12px; }
+        span { font-size: 0.75rem; }
     }
 `;
 
@@ -27,8 +29,6 @@ export const BottomHeader = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        img { height: 80px; }
     }
 `;
 
