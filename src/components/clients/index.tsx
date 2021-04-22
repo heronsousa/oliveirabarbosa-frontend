@@ -40,55 +40,71 @@ export default function Clients() {
                             naturalSlideWidth={400}
                             naturalSlideHeight={500}
                             hasMasterSpinner
-                            isPlaying
+                            // isPlaying
                         >
                             <Slider >
                                 <Slide index={0}>
                                     <Quote>
-                                        <Image
-                                            src="/quote.svg"
-                                            width={30}
-                                            height={30}
-                                        />
-                                        <p>"Equipe bastante eficiente. Comprometidos e dedicados! Me ajudaram muito."</p>
-                                        <span>Lorena Carvalho</span>
-                                        <span>Cliente desde 2021</span>
+                                        <div>
+                                            <Image
+                                                src="/quote.svg"
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <p>"Equipe bastante eficiente. Comprometidos e dedicados! Me ajudaram muito."</p>
+                                        </div>
+                                        <div>
+                                            <span>Lorena Carvalho</span>
+                                            <span>Cliente desde 2021</span>
+                                        </div>
                                     </Quote>
                                 </Slide>
                                 <Slide index={1}>
                                     <Quote>
-                                        <Image
-                                            src="/quote.svg"
-                                            width={30}
-                                            height={30}
-                                        />
-                                        <p>"Muito satisfeito com o atendimento. Educação e dedicação nota 10!"</p>
-                                        <span>Carlos Rodrigues</span>
-                                        <span>Cliente desde 2020</span>
+                                        <div>
+                                            <Image
+                                                src="/quote.svg"
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <p>"Muito satisfeito com o atendimento. Educação e dedicação nota 10!"</p>
+                                        </div>
+                                        <div>
+                                            <span>Carlos Rodrigues</span>
+                                            <span>Cliente desde 2020</span>
+                                        </div>
                                     </Quote>
                                 </Slide>
                                 <Slide index={2}>
                                     <Quote>
-                                        <Image
-                                            src="/quote.svg"
-                                            width={30}
-                                            height={30}
-                                        />
-                                        <p>"Equipe bastante eficiente. Comprometidos e dedicados! Me ajudaram muito."</p>
-                                        <span>Lorena Carvalho</span>
-                                        <span>Cliente desde 2021</span>
+                                        <div>
+                                            <Image
+                                                src="/quote.svg"
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <p>"Equipe bastante eficiente. Comprometidos e dedicados! Me ajudaram muito."</p>
+                                        </div>
+                                        <div>
+                                            <span>Lorena Carvalho</span>
+                                            <span>Cliente desde 2021</span>
+                                        </div>
                                     </Quote>
                                 </Slide>
                                 <Slide index={3}>
                                     <Quote>
-                                        <Image
-                                            src="/quote.svg"
-                                            width={30}
-                                            height={30}
-                                        />
-                                        <p>"Muito satisfeito com o atendimento. Educação e dedicação nota 10!"</p>
-                                        <span>Carlos Rodrigues</span>
-                                        <span>Cliente desde 2020</span>
+                                        <div>
+                                            <Image
+                                                src="/quote.svg"
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <p>"Muito satisfeito com o atendimento. Educação e dedicação nota 10!"</p>
+                                        </div>
+                                        <div>
+                                            <span>Carlos Rodrigues</span>
+                                            <span>Cliente desde 2020</span>
+                                        </div>
                                     </Quote>
                                 </Slide>
                             </Slider>

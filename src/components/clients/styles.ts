@@ -61,17 +61,19 @@ export const ClientsQuotes = styled.div`
         overflow: hidden;
 
         > div:first-child {
-            max-width: 415px;
-            height: 200px;
+            max-width: 345px;
+            height: auto;
 
             ul {
                 display: flex;
-                height: 200px;
+                height: auto;
 
                 li {
                     padding-bottom: 0!important;
-                    height: 200px!important;
+                    height: auto!important;
                     padding-right: 15px;
+
+                    > div { height: 100% }
                 }
             }
         }
@@ -95,14 +97,19 @@ export const ClientsQuotes = styled.div`
 `;
 
 export const Quote = styled.div`
-    background: var(--background-default);
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 330px;
+    height: 100%;
     padding: 20px;
-    width: 400px;
+    border-radius: 20px;
+    background: var(--background-default);
 
     p, span { display: block; color: var(--text-secondary); }
 
-    p { margin: 10px 0; font-weight: 300; }
+    p { margin: 10px 0 20px; font-weight: 300; }
 
     span {
         font-weight: 500;
