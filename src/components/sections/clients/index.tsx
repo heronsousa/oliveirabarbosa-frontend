@@ -6,7 +6,7 @@ import {
     Slider
 } from 'pure-react-carousel';
 
-import { Container } from '../../styles/container';
+import { Container } from '../../../styles/container';
 import { ClientsBackground, OurQuote, ClientsQuotes, Quote } from './styles';
 
 export default function Clients() {

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { Container } from './../../styles/container';
+import { Container } from '../../../styles/container';
 import { HeaderBackground, TopHeader, BottomHeader, Links, HeaderSpace } from './styles';
 
 export default function Header() {
@@ -18,7 +18,7 @@ export default function Header() {
                         <Image
                             src="/logo.png"
                             width={350}
-                            height={110}
+                            height={50}
                         />
                         <Links>
                             <li><a href="">Áreas de atuação</a></li>

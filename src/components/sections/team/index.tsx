@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { Container } from '../../styles/container';
+import { Container } from '../../../styles/container';
 import { TeamContainer, Person, PersonDescription } from './styles';
 
 export default function Team() {
@@ -28,7 +28,7 @@ export default function Team() {
                     </PersonDescription>
                 </Person>
 
-                <a href="">Conheça nossos colaboradores</a>
+                <a href="#">Conheça nossos colaboradores</a>
             </TeamContainer>
         </Container>
     );

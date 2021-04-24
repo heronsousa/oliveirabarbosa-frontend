@@ -88,7 +88,7 @@ export const ClientsQuotes = styled.div`
                 height: 5px;
                 border-radius: 2.5px;
                 margin-right: 10px;
-                background: var(--disable-slider);
+                background: var(--disable);
 
                 &.carousel__dot--selected { background: white; }
             }

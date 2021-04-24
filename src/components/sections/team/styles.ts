@@ -25,7 +25,13 @@ export const TeamContainer = styled.div`
         }
     }
 
-    a { display: block; color: var(--brand-primary); margin-top: 55px; }
+    a {
+        display: block;
+        margin-top: 55px;
+        color: var(--brand-primary);
+
+        &:hover { text-decoration: underline; }
+    }
 
     @media(max-width: 992px) {
         max-width: 300px

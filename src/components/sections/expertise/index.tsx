@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { Container } from '../../styles/container';
+import { Container } from '../../../styles/container';
 import { Expertises, Title, Description, Areas, Area } from './styles';
 
 export default function Expertise() {
