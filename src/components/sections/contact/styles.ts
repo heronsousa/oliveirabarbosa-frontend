@@ -1,14 +1,36 @@
 import styled from "styled-components";
 import { Form } from '@unform/web';
+import { darken } from 'polished';
 
 export const ContactContainer = styled.div`
     padding: 100px 0;
     background: var(--brand-secondary);
 
-    > div { display: flex; align-items: center }
+    > div {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+
+        @media(max-width: 992px) {
+            grid-template-columns: 1fr;
+        }
+    }
+`;
+
+export const Row = styled.div`
+    display: flex;
+    align-items: center;
+
+    @media(max-width: 576px) {
+        display: block;
+
+        div:first-child { margin-bottom: 8px }
+    }
 `;
 
 export const Info = styled.div`
+    grid-column: 1;
+
     h2 {
         font-size: 1.5rem;
         font-weight: 300;
@@ -17,9 +39,15 @@ export const Info = styled.div`
     }
 
     span { font-size: 1.25rem; font-weight: 200 }
+
+    @media(max-width: 992px) {
+        grid-row: 2/3;
+        text-align: center;
+    }
 `;
 
 export const ContactForm = styled(Form)`
+    grid-column: 2;
     h1, > p { text-align: center; }
 
     > p {
@@ -43,5 +71,23 @@ export const ContactForm = styled(Form)`
         margin-bottom: 8px;
 
         div:first-child { margin-right: 8px }
+    }
+
+    button {
+        width: 100%;
+        padding: 16px 0;
+        margin-top: 25px;
+        color: var(--text-default);
+        border-radius: 10px;
+        background: var(--brand-primary);
+        transition: background .2s ease-out;
+
+        &:hover { background: ${darken(0.05, '#5E502E')}; }
+    }
+
+    @media(max-width: 992px) {
+        grid-column: 1;
+        grid-row: 1/2;
+        margin-bottom: 70px;
     }
 `;

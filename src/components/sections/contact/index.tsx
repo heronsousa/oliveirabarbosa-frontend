@@ -3,7 +3,7 @@ import { FormHandles } from '@unform/core';
 
 import Input from './../../shared/Input/index';
 import { Container } from '../../../styles/container';
-import { ContactContainer, Info, ContactForm } from './styles';
+import { Row, ContactContainer, Info, ContactForm } from './styles';
 import Textarea from 'components/shared/Textarea';
 
 export default function Contact() {
@@ -29,7 +29,7 @@ export default function Contact() {
                     <h1>CONTATO</h1>
                     <p>Deixe-nos uma mensagem e entraremos em contato</p>
 
-                    <div style={{display: 'flex'}}>
+                    <Row>
                         <Input
                             name="name"
                             type="text"
@@ -40,13 +40,13 @@ export default function Contact() {
                             type="text"
                             placeholder="Sobrenome"
                         />
-                    </div>
+                    </Row>
                     <Input
                         name="email"
                         type="text"
                         placeholder="E-mail"
                     />
-                    <div style={{display: 'flex'}}>
+                    <Row>
                         <Input
                             name="phone"
                             type="text"
@@ -57,12 +57,14 @@ export default function Contact() {
                             type="text"
                             placeholder="Assunto"
                         />
-                    </div>
+                    </Row>
                     <Textarea
                         name="message"
                         placeholder="Mensagem"
                         rows={5}
                     />
+
+                    <button>Enviar</button>
                 </ContactForm>
             </Container>
         </ContactContainer>
