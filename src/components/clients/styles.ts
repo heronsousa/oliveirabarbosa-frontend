@@ -44,7 +44,7 @@ export const ClientsQuotes = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px 0 70px;
+        margin: 12px 0 70px;
         font-weight: 200;
 
         &::after{
@@ -52,7 +52,7 @@ export const ClientsQuotes = styled.div`
             width: 80px;
             background: var(--background-default);
             height: 4px;
-            margin-top: 30px;
+            margin-top: 35px;
             border-radius: 2px;
         }
     }
