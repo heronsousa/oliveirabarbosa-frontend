@@ -1,7 +1,8 @@
-import Header from "../components/header";
-import Expertise from './../components/expertise';
-import Clients from "components/clients";
-import Team from "components/team";
+import Header from "../components/shared/header";
+import Expertise from '../components/sections/expertise';
+import Clients from "components/sections/clients";
+import Team from "components/sections/team";
+import Contact from "components/sections/contact";
 
 export default function App() {
     return (
@@ -10,6 +11,7 @@ export default function App() {
             <Expertise></Expertise>
             <Clients></Clients>
             <Team></Team>
+            <Contact></Contact>
         </>
     );
 }
