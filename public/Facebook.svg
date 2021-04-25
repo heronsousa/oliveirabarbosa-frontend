@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_43" data-name="Retângulo 43" width="22" height="22" transform="translate(897 3333)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_15" data-name="Grupo de máscara 15" transform="translate(-897 -3333)" clip-path="url(#clip-path)">
+    <path id="facebook-f" d="M11.994,12.375l.611-3.981H8.785V5.81A1.991,1.991,0,0,1,11.03,3.659h1.737V.269A21.18,21.18,0,0,0,9.683,0c-3.146,0-5.2,1.907-5.2,5.359V8.394H.984v3.981h3.5V22h4.3V12.375Z" transform="translate(901.125 3333)" fill="#fff"/>
+  </g>
+</svg>

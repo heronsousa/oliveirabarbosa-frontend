@@ -21,7 +21,7 @@ export const Row = styled.div`
     display: flex;
     align-items: center;
 
-    @media(max-width: 576px) {
+    @media(max-width: 768px) {
         display: block;
 
         div:first-child { margin-bottom: 8px }

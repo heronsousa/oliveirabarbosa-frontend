@@ -1,10 +1,10 @@
 import { useCallback, useRef } from 'react';
 import { FormHandles } from '@unform/core';
 
-import Input from './../../shared/Input/index';
+import Input from '../../shared/input/index';
 import { Container } from '../../../styles/container';
 import { Row, ContactContainer, Info, ContactForm } from './styles';
-import Textarea from 'components/shared/Textarea';
+import Textarea from 'components/shared/textarea';
 
 export default function Contact() {
     const formRef = useRef<FormHandles>(null);

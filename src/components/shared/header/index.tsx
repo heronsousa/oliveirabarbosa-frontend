@@ -18,7 +18,7 @@ export default function Header() {
                         <Image
                             src="/logo.png"
                             width={350}
-                            height={120}
+                            height={110}
                         />
                         <Links>
                             <li><a href="">Áreas de atuação</a></li>

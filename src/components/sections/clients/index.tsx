@@ -40,7 +40,7 @@ export default function Clients() {
                             naturalSlideWidth={400}
                             naturalSlideHeight={500}
                             hasMasterSpinner
-                            // isPlaying
+                            isPlaying
                         >
                             <Slider >
                                 <Slide index={0}>

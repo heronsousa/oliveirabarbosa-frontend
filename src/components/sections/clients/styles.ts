@@ -67,6 +67,7 @@ export const ClientsQuotes = styled.div`
             ul {
                 display: flex;
                 height: auto;
+                transition: all 0.25s ease 0s;
 
                 li {
                     padding-bottom: 0!important;

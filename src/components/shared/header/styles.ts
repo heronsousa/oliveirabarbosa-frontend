@@ -11,7 +11,7 @@ export const HeaderBackground = styled.div`
 export const TopHeader = styled.div`
     background: var(--brand-secondary);
     padding: 8px 0;
-    border-bottom: 10px solid var(--brand-primary);
+    border-bottom: 10px solid var(--brand-tertiary);
 
     > div {
         display: flex;

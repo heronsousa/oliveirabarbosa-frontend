@@ -42,7 +42,7 @@ export const Person = styled.div`
     display: flex;
     align-items: flex-end;
     border-radius: 10px;
-    background: var(--brand-primary);
+    background: var(--brand-tertiary);
 
     > div { width: 280px!important }
 
