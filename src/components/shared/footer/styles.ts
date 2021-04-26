@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import { darken, lighten, shade } from 'polished';
+import { lighten } from 'polished';
 
 export const FooterBackground = styled.div`
     padding: 50px 0;
-    margin-top: 20px;
     background: var(--brand-secondary);
 
     > div {

@@ -21,10 +21,14 @@ export const Row = styled.div`
     display: flex;
     align-items: center;
 
+    iframe { width: calc(100% - 500px); }
+
     @media(max-width: 768px) {
         display: block;
 
         div:first-child { margin-bottom: 8px }
+
+        > div, iframe { width: 100%; }
     }
 `;
 
@@ -82,7 +86,7 @@ export const ContactForm = styled(Form)`
         background: var(--brand-primary);
         transition: background .2s ease-out;
 
-        &:hover { background: ${darken(0.05, '#5E502E')}; }
+        &:hover { background: var(--brand-tertiary); }
     }
 
     @media(max-width: 992px) {

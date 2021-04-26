@@ -1,3 +1,4 @@
+import { lighten } from "polished";
 import styled from "styled-components";
 
 export const HeaderBackground = styled.div`
@@ -17,7 +18,7 @@ export const TopHeader = styled.div`
         display: flex;
         align-items: center;
 
-        span { font-size: 0.75rem; }
+        span { margin-left: 8px; font-size: 0.75rem; }
     }
 `;
 
@@ -38,7 +39,7 @@ export const Links = styled.ul`
 
     > li {
         a {
-            &:hover { color: var(--brand-primary); }
+            &:hover { color: ${lighten(0.2, '#5E502E')}; }
         }
 
         &:not(:last-child) { margin-right: 40px; }

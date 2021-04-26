@@ -9,6 +9,11 @@ export default function Header() {
             <HeaderBackground>
                 <TopHeader>
                     <Container>
+                        <Image
+                            src="/marker.svg"
+                            width={13}
+                            height={13}
+                        />
                         <span>Coworkee - SMA Conjunto B, Loja 19 - Gama, Brasília/DF</span>
                     </Container>
                 </TopHeader>
