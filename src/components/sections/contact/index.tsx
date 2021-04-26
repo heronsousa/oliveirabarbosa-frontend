@@ -2,7 +2,7 @@ import { useCallback, useRef } from 'react';
 import { FormHandles } from '@unform/core';
 import Image from 'next/image';
 
-import Input from '../../shared/input/index';
+import Input from '../../shared/input';
 import { Container } from '../../../styles/container';
 import { Row, ContactContainer, Info, ContactForm } from './styles';
 import Textarea from 'components/shared/textarea';
