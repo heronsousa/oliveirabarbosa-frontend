@@ -13,7 +13,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     name: string;
 }
 
-const Input: React.FC<InputProps> = ({ name, ...rest }) => {
+export const Input: React.FC<InputProps> = ({ name, ...rest }) => {
     const inputRef = useRef<HTMLInputElement>(null);
     const [isFocused, setIsFocused] = useState(false);
     const [isFilled, setIsFilled] = useState(false);
@@ -59,5 +59,3 @@ const Input: React.FC<InputProps> = ({ name, ...rest }) => {
         </Container>
     );
 };
-
-export default Input;

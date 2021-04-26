@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 import { Container } from '../../../styles/container';
 import { Row, ContactContainer, Info, ContactForm } from './styles';
-import Textarea from 'components/shared/textarea';
-import Input from 'components/shared/input';
+import { Textarea } from 'components/shared/textarea';
+import { Input } from 'components/shared/input';
 
 export default function Contact() {
     const formRef = useRef<FormHandles>(null);
