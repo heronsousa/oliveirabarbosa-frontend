@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Form } from '@unform/web';
-import { darken } from 'polished';
 
 export const ContactContainer = styled.div`
     padding: 100px 0;
