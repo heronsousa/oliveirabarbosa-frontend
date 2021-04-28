@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Container } from '../../../styles/container';
 import { BannerBackground } from './styles';
 
-export default function Banner() {
+export default function HomeBanner() {
 
     return (
         <BannerBackground>
