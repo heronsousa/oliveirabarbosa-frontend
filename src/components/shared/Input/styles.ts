@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import Tooltip from '../tooltip/index';
+import Tooltip from 'components/shared/tooltip';
 
 interface ContainerProps {
     isFocused: boolean;
