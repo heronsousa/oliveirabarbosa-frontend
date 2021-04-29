@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Container } from '../../../styles/container';
 import { HeaderBackground, TopHeader, BottomHeader, Links, HeaderSpace } from './styles';
@@ -26,9 +27,9 @@ export default function Header() {
                             height={110}
                         />
                         <Links>
-                            <li><a href="">Áreas de atuação</a></li>
-                            <li><a href="">Contato</a></li>
-                            <li><a href="">Sobre</a></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao'}}>Áreas de atuação</Link></li>
+                            <li><Link href="">Contato</Link></li>
+                            <li><Link href="">Sobre</Link></li>
                         </Links>
                     </Container>
                 </BottomHeader>
