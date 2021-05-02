@@ -8,10 +8,10 @@ export const GlobalStyle = createGlobalStyle`
         --background-default: #fff;
         --text-primary: #fff;
         --text-secondary: #212121;
+        --sub-title: #828282;
         --disable: #666;
         --gold: #B9A05C;
 
-        --title: #2e384d;
         --red: #e83f5b;
         --red-light: #fff5f5;
         --green: #4cd62b;

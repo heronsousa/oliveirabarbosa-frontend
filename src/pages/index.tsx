@@ -1,8 +1,8 @@
-import Expertise from '../components/sections/expertise';
-import Clients from "../components/sections/clients";
-import Team from "../components/sections/team";
-import Contact from "../components/sections/contact";
-import HomeBanner from "../components/sections/home-banner";
+import Expertise from '../components/home/expertise';
+import Clients from "../components/home/clients";
+import Team from "../components/home/team";
+import Contact from "../components/home/contact";
+import HomeBanner from "../components/home/home-banner";
 
 export default function App() {
     return (
