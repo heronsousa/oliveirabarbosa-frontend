@@ -4,8 +4,12 @@ import Link from 'next/link';
 import { PageHeader, Topics, Topic } from './styles';
 import { PageBodyInterface } from './../../../interfaces/pageBody.interface';
 
+interface PageBodyProps {
+    props: PageBodyInterface;
+}
 
-export default function PageBody({ props }: PageBodyInterface) {
+export default function PageBody({props}: PageBodyProps) {
+
     return(
         <>
             <PageHeader>

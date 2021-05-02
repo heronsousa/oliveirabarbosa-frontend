@@ -45,6 +45,5 @@ export const Topic = styled.div`
         font-weight: 400;
         color: var(--text-secondary);
         margin-left: 10px;
-        white-space: nowrap;
     }
 `;

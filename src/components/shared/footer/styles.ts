@@ -9,7 +9,7 @@ export const FooterBackground = styled.div`
         display: grid;
         grid-template-columns: repeat(4, 1fr);
 
-        > div:first-child { max-width: 330px; height: 100px; grid-column: 1/5; }
+        > div:first-child { max-width: 330px!important; height: 100px; grid-column: 1/5; }
 
         @media(max-width: 992px) {
             grid-template-columns: 1fr 1fr;
