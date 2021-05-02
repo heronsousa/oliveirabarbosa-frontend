@@ -1,22 +1,34 @@
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
-import { Container } from '../../../styles/container';
 import { BreadcrumbInterface } from './../../../interfaces/breadcrumb.interface';
+import { BreadcrumbLink, BreadcrumbContainer } from './styles';
 
-export default function Breadcrumb({routes}: { routes: BreadcrumbInterface[] }) {
+interface BreadcrumbProps {
+    routes: BreadcrumbInterface[]
+}
+
+export default function Breadcrumb({ routes }: BreadcrumbProps) {
+
+    const [ links, setLinks ] = useState<BreadcrumbInterface[]>([]);
+
+    useEffect(() => {
+        const home = { title: 'Início', slug: '/' };
+        setLinks([home, ...routes]);
+    }, []);
 
     return (
-        <Container style={{marginTop: '100px', marginBottom: '100px'}}>
+        <BreadcrumbContainer>
             {
-                routes.map(route => (
+                links.map(link => (
                     <Link
-                        key={route.slug}
-                        href={{pathname: route.slug}}
+                        key={link.slug}
+                        href={{pathname: link.slug}}
                     >
-                        {route.title}
+                        <BreadcrumbLink>{link.title}</BreadcrumbLink>
                     </Link>
                 ))
             }
-        </Container>
+        </BreadcrumbContainer>
     );
 }
