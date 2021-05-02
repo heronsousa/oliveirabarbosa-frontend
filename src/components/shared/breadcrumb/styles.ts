@@ -21,7 +21,6 @@ export const BreadcrumbLink = styled.a`
     }
 
     &:hover {
-        text-decoration: underline;
         color: var(--brand-primary);
     }
 `;

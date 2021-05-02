@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Container } from "../../../styles/container";
 import { PageHeader, Areas, Area } from './styles';
 
 export default function Expertise() {

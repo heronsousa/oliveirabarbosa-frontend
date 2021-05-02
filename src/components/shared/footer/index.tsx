@@ -10,8 +10,8 @@ export default function Footer() {
                 <Container>
                     <Image
                         src="/logo.png"
-                        width={350}
-                        height={110}
+                        width={330}
+                        height={100}
                     />
 
                     <FooterColumn>
