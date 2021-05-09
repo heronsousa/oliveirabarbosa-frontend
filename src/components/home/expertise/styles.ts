@@ -41,6 +41,7 @@ export const Areas = styled.div`
 export const Area = styled.div`
     max-width: 277px;
     padding: 40px 20px;
+    cursor: pointer;
 
     img { height: 70px }
 

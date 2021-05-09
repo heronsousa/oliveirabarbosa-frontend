@@ -18,7 +18,7 @@ export const BannerBackground = styled.div`
         h1 { font-size: 3rem; font-weight: 400; line-height: 1.2; }
         p { font-size: 1.125rem; font-weight: 300; margin: 10px 0 40px }
 
-        button {
+        a {
             display: flex;
             align-items: center;
             padding: 15px 60px;

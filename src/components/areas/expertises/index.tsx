@@ -15,7 +15,7 @@ export default function Expertises() {
                 <Link href={{pathname: 'areas-de-atuacao/civil'}}>
                     <Area>
                         <Image
-                            src="/rights.svg"
+                            src="/civil-right.svg"
                             width={30}
                             height={30}
                         />
@@ -31,7 +31,7 @@ export default function Expertises() {
                 <Link href={{pathname: 'areas-de-atuacao/trabalhista'}}>
                     <Area>
                         <Image
-                            src="/rights.svg"
+                            src="/work.svg"
                             width={30}
                             height={30}
                         />
@@ -47,7 +47,7 @@ export default function Expertises() {
                 <Link href={{pathname: 'areas-de-atuacao/consumidor'}}>
                     <Area>
                         <Image
-                            src="/rights.svg"
+                            src="/wallet.svg"
                             width={30}
                             height={30}
                         />
@@ -63,7 +63,7 @@ export default function Expertises() {
                 <Link href={{pathname: 'areas-de-atuacao/previdenciario'}}>
                     <Area>
                         <Image
-                            src="/rights.svg"
+                            src="/return.svg"
                             width={30}
                             height={30}
                         />
