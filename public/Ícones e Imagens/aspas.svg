@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.936" height="39.841" viewBox="0 0 46.936 39.841">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8e7f4c"/>
+      <stop offset="1" stop-color="#474026"/>
+    </linearGradient>
+  </defs>
+  <g id="right_x5F_quote" transform="translate(46.936 39.841) rotate(180)">
+    <g id="Grupo_30" data-name="Grupo 30">
+      <path id="Caminho_15" data-name="Caminho 15" d="M0,0V19.92H13.28A13.294,13.294,0,0,1,0,33.2v6.64A19.943,19.943,0,0,0,19.92,19.92V0Z" fill="url(#linear-gradient)"/>
+      <path id="Caminho_16" data-name="Caminho 16" d="M0,0V19.92H13.28A13.294,13.294,0,0,1,0,33.2v6.64A19.943,19.943,0,0,0,19.92,19.92V0Z" transform="translate(27.015)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
