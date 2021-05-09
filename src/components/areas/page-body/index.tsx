@@ -14,7 +14,7 @@ export default function PageBody({props}: PageBodyProps) {
         <>
             <PageHeader>
                 <h1>{props.title}</h1>
-                <p>{props.description}</p>
+                <p dangerouslySetInnerHTML={{__html: props.description}}></p>
             </PageHeader>
 
             <Topics>

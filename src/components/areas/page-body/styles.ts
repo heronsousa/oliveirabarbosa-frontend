@@ -12,7 +12,7 @@ export const PageHeader = styled.div`
 
     p {
         font-size: 1.125rem;
-        color: var(--sub-title);
+        color: var(--text-secondary);
         font-weight: 300;
     }
 `;

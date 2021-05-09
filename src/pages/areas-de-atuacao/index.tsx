@@ -3,7 +3,7 @@ import { BreadcrumbInterface } from "../../interfaces/breadcrumb.interface";
 import { Container } from './../../styles/container';
 import GeneralBanner from "../../components/shared/general-banner";
 import Breadcrumb from "../../components/shared/breadcrumb";
-import Expertise from './../../components/areas/expertises/index';
+import Expertises from './../../components/areas/expertises/index';
 
 export default function Areas() {
     const routes: BreadcrumbInterface[] = [
@@ -15,7 +15,7 @@ export default function Areas() {
             <GeneralBanner title="Áreas de atuação"></GeneralBanner>
             <Container>
                 <Breadcrumb routes={routes}></Breadcrumb>
-                <Expertise></Expertise>
+                <Expertises></Expertises>
             </Container>
         </>
     );
