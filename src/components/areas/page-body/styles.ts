@@ -21,7 +21,6 @@ export const Topics = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    margin-bottom: 100px;
 
     @media(max-width: 992px) {
         grid-template-columns: 1fr 1fr;
@@ -46,4 +45,25 @@ export const Topic = styled.div`
         color: var(--text-secondary);
         margin-left: 10px;
     }
+`;
+
+export const ContactButton = styled.a`
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 70px 0 90px;
+    border-radius: 30px;
+    background: var(--brand-primary);
+    color: var(--text-default);
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.20rem;
+    transition: all .2s ease-out;
+
+    &:hover { background: var(--brand-tertiary); }
+`;
+
+export const Center = styled.div`
+    display: flex;
+    justify-content: center;
 `;

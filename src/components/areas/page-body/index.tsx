@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { PageHeader, Topics, Topic } from './styles';
+import { PageHeader, Topics, Topic, ContactButton, Center } from './styles';
 import { PageBodyInterface } from './../../../interfaces/pageBody.interface';
 
 interface PageBodyProps {
@@ -29,6 +29,12 @@ export default function PageBody({props}: PageBodyProps) {
                     </Topic>
                 ))}
             </Topics>
+
+            <Center>
+                <ContactButton  target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
+                    Entre em contato
+                </ContactButton>
+            </Center>
         </>
     );
 }
