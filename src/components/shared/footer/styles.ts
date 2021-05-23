@@ -27,7 +27,6 @@ export const FooterBackground = styled.div`
     }
 `;
 
-
 export const FooterColumn = styled.div`
     h2 { font-size: 1rem; margin: 30px 0 15px}
 

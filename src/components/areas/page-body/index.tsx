@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { PageHeader, Topics, Topic, ContactButton, Center } from './styles';
 import { PageBodyInterface } from './../../../interfaces/pageBody.interface';

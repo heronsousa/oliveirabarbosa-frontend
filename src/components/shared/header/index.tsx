@@ -28,8 +28,8 @@ export default function Header() {
                         />
                         <Links>
                             <li><Link href={{pathname: '/areas-de-atuacao'}}>Áreas de atuação</Link></li>
-                            <li><Link href="">Contato</Link></li>
-                            <li><Link href="">Sobre</Link></li>
+                            <li><Link href={{pathname: '/contato'}}>Contato</Link></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao'}}>Sobre</Link></li>
                         </Links>
                     </Container>
                 </BottomHeader>

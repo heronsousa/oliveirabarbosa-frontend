@@ -15,22 +15,10 @@ export const BannerBackground = styled.div`
         max-width: 650px;
         text-align: center;
 
-        h1 { font-size: 3rem; font-weight: 400; line-height: 1.2; }
-        p { font-size: 1.125rem; font-weight: 300; margin: 10px 0 40px }
-
-        button {
-            display: flex;
-            align-items: center;
-            padding: 15px 60px;
-            border-radius: 30px;
-            background: var(--brand-primary);
-            color: var(--text-default);
+        h1 {
+            font-size: 3rem;
             font-weight: 300;
-            transition: background .2s ease-out;
-
-            &:hover { background: var(--brand-tertiary); }
-
-            > div { margin: 0 10px 0 0!important; }
+            line-height: 1.2;
         }
     }
 `;
