@@ -210,11 +210,12 @@ export const Localization = styled.div`
 
     iframe { width: 100%; margin-right: 30px; }
 
-    h2, p {
-        font-size: 18px;
-        color: var(--brand-tertiary);
-    }
+    h2, p { font-size: 18px; }
 
-    h2 { font-weight: 400; margin-top: 30px; }
-    p { font-weight: 300; }
+    h2 {
+        color: var(--brand-tertiary);
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    p { color: var(--text-secondary); font-weight: 300; }
 `;

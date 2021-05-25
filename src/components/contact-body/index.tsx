@@ -7,7 +7,7 @@ import Link from 'next/link';
 // import Textarea from '../../shared/textarea';
 
 import { PageHeader, Row, ContactContainer, Info, ContactForm, Socials, Localization } from './styles';
-import { Container } from '../../../styles/container';
+import { Container } from '../../styles/container';
 
 export default function ContactBody() {
     const formRef = useRef<FormHandles>(null);

@@ -1,21 +1,21 @@
-import ContactBody from "../components/contact-body";
+import AboutBody from "../components/about-body";
 import Breadcrumb from "../components/shared/breadcrumb";
 import GeneralBanner from "../components/shared/general-banner";
 import { BreadcrumbInterface } from "../interfaces/breadcrumb.interface";
 import { Container } from "../styles/container";
 
-export default function Contact() {
+export default function About() {
     const routes: BreadcrumbInterface[] = [
-        { title: 'Contato', slug: 'contato' }
+        { title: 'Sobre nós', slug: 'sobre' }
     ]
 
     return (
         <>
-            <GeneralBanner title="Contato"></GeneralBanner>
+            <GeneralBanner title="Sobre"></GeneralBanner>
             <Container>
                 <Breadcrumb routes={routes}></Breadcrumb>
             </Container>
-            <ContactBody></ContactBody>
+            <AboutBody></AboutBody>
         </>
     );
 }
