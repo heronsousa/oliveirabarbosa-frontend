@@ -21,11 +21,13 @@ export default function Header() {
 
                 <BottomHeader>
                     <Container>
-                        <Image
-                            src="/logo.png"
-                            width={350}
-                            height={110}
-                        />
+                        <Link href={{pathname: '/'}}>
+                            <Image
+                                src="/logo.png"
+                                width={350}
+                                height={110}
+                            />
+                        </Link>
                         <Links>
                             <li><Link href={{pathname: '/areas-de-atuacao'}}>Áreas de atuação</Link></li>
                             <li><Link href={{pathname: '/contato'}}>Contato</Link></li>

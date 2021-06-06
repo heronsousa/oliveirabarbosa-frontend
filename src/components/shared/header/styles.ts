@@ -30,6 +30,8 @@ export const BottomHeader = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        img { cursor: pointer; }
     }
 `;
 
