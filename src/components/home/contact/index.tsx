@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Container } from '../../../styles/container';
 import { Row, ContactContainer, Info, ContactForm } from './styles';
 // import TextareaTest from '../../shared/textarea';
-import InputTest from '../../shared/input-test';
+import Input from '../../shared/input';
 
 export default function Contact() {
     const formRef = useRef<FormHandles>(null);
@@ -45,29 +45,29 @@ export default function Contact() {
                         <p>Deixe-nos uma mensagem e entraremos em contato</p>
 
                         <Row>
-                            <InputTest
+                            <Input
                                 name="name"
                                 type="text"
                                 placeholder="Nome"
                             />
-                            <InputTest
+                            <Input
                                 name="last"
                                 type="text"
                                 placeholder="Sobrenome"
                             />
                         </Row>
-                        <InputTest
+                        <Input
                             name="email"
                             type="text"
                             placeholder="E-mail"
                         />
                         <Row>
-                            <InputTest
+                            <Input
                                 name="phone"
                                 type="text"
                                 placeholder="Telefone"
                             />
-                            <InputTest
+                            <Input
                                 name="subject"
                                 type="text"
                                 placeholder="Assunto"
