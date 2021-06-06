@@ -46,37 +46,37 @@ export default function Contact() {
 
                         <Row>
                             <InputTest
-                                // name="name"
-                                // type="text"
-                                // placeholder="Nome"
+                                name="name"
+                                type="text"
+                                placeholder="Nome"
                             />
                             <InputTest
-                                // name="last"
-                                // type="text"
-                                // placeholder="Sobrenome"
+                                name="last"
+                                type="text"
+                                placeholder="Sobrenome"
                             />
                         </Row>
                         <InputTest
-                            // name="email"
-                            // type="text"
-                            // placeholder="E-mail"
+                            name="email"
+                            type="text"
+                            placeholder="E-mail"
                         />
                         <Row>
                             <InputTest
-                                // name="phone"
-                                // type="text"
-                                // placeholder="Telefone"
+                                name="phone"
+                                type="text"
+                                placeholder="Telefone"
                             />
                             <InputTest
-                                // name="subject"
-                                // type="text"
-                                // placeholder="Assunto"
+                                name="subject"
+                                type="text"
+                                placeholder="Assunto"
                             />
                         </Row>
                         {/* <TextareaTest
-                            // name="message"
-                            // placeholder="Mensagem"
-                            // rows={5}
+                            name="message"
+                            placeholder="Mensagem"
+                            rows={5}
                         /> */}
 
                         <button>Enviar</button>
