@@ -13,7 +13,7 @@ interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
     name: string;
 }
 
-export default function Textarea({ name, ...rest }: TextareaProps) {
+export default function Textarea() {
     // const textareaRef = useRef<HTMLTextAreaElement>(null);
     // const [isFocused, setIsFocused] = useState(false);
     // const [isFilled, setIsFilled] = useState(false);

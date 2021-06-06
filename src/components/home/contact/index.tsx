@@ -46,37 +46,37 @@ export default function Contact() {
 
                         <Row>
                             <Input
-                                name="name"
-                                type="text"
-                                placeholder="Nome"
+                                // name="name"
+                                // type="text"
+                                // placeholder="Nome"
                             />
                             <Input
-                                name="last"
-                                type="text"
-                                placeholder="Sobrenome"
+                                // name="last"
+                                // type="text"
+                                // placeholder="Sobrenome"
                             />
                         </Row>
                         <Input
-                            name="email"
-                            type="text"
-                            placeholder="E-mail"
+                            // name="email"
+                            // type="text"
+                            // placeholder="E-mail"
                         />
                         <Row>
                             <Input
-                                name="phone"
-                                type="text"
-                                placeholder="Telefone"
+                                // name="phone"
+                                // type="text"
+                                // placeholder="Telefone"
                             />
                             <Input
-                                name="subject"
-                                type="text"
-                                placeholder="Assunto"
+                                // name="subject"
+                                // type="text"
+                                // placeholder="Assunto"
                             />
                         </Row>
                         <Textarea
-                            name="message"
-                            placeholder="Mensagem"
-                            rows={5}
+                            // name="message"
+                            // placeholder="Mensagem"
+                            // rows={5}
                         />
 
                         <button>Enviar</button>

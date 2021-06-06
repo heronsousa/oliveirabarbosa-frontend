@@ -13,7 +13,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     name: string;
 }
 
-export default function Input({ name, ...rest }: InputProps) {
+export default function Input() {
     // const inputRef = useRef<HTMLInputElement>(null);
     // const [isFocused, setIsFocused] = useState(false);
     // const [isFilled, setIsFilled] = useState(false);
