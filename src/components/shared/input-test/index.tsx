@@ -6,6 +6,7 @@ import React, {
     useCallback,
 } from 'react';
 import { useField } from '@unform/core';
+import { Container, Error } from './styles';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     name: string;
@@ -36,25 +37,24 @@ export default function InputTest({ name, ...rest }: InputProps) {
     }, [fieldName, registerField]);
 
     return (
-        <h1>Input</h1>
-        // <Container
-        //     isErrored={!!error}
-        //     isFocused={isFocused}
-        //     isFilled={isFilled}
-        // >
-        //     <input
-        //         onFocus={handleInputFocus}
-        //         onBlur={handleInputBlur}
-        //         defaultValue={defaultValue}
-        //         ref={inputRef}
-        //         {...rest}
-        //     />
+        <Container
+            isErrored={!!error}
+            isFocused={isFocused}
+            isFilled={isFilled}
+        >
+            <input
+                onFocus={handleInputFocus}
+                onBlur={handleInputBlur}
+                defaultValue={defaultValue}
+                ref={inputRef}
+                {...rest}
+            />
 
-        //     {error && (
-        //         <Error title={error}>
-        //             {/* <FiAlertCircle color="#c53030" size={20} /> */}
-        //         </Error>
-        //     )}
-        // </Container>
+            {error && (
+                <Error title={error}>
+                    {/* <FiAlertCircle color="#c53030" size={20} /> */}
+                </Error>
+            )}
+        </Container>
     );
 }
