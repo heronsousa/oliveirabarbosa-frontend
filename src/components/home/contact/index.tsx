@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 import { Container } from '../../../styles/container';
 import { Row, ContactContainer, Info, ContactForm } from './styles';
-import Textarea from '../../shared/textarea/index';
-import Input from './../../shared/input/index';
+import TextareaTest from '../../shared/textarea';
+import InputTest from './../../shared/input';
 
 export default function Contact() {
     const formRef = useRef<FormHandles>(null);
@@ -45,35 +45,35 @@ export default function Contact() {
                         <p>Deixe-nos uma mensagem e entraremos em contato</p>
 
                         <Row>
-                            <Input
+                            <InputTest
                                 // name="name"
                                 // type="text"
                                 // placeholder="Nome"
                             />
-                            <Input
+                            <InputTest
                                 // name="last"
                                 // type="text"
                                 // placeholder="Sobrenome"
                             />
                         </Row>
-                        <Input
+                        <InputTest
                             // name="email"
                             // type="text"
                             // placeholder="E-mail"
                         />
                         <Row>
-                            <Input
+                            <InputTest
                                 // name="phone"
                                 // type="text"
                                 // placeholder="Telefone"
                             />
-                            <Input
+                            <InputTest
                                 // name="subject"
                                 // type="text"
                                 // placeholder="Assunto"
                             />
                         </Row>
-                        <Textarea
+                        <TextareaTest
                             // name="message"
                             // placeholder="Mensagem"
                             // rows={5}
