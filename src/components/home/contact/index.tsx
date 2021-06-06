@@ -10,7 +10,20 @@ import Input from './../../shared/input/index';
 export default function Contact() {
     const formRef = useRef<FormHandles>(null);
 
-    const handleSubmit = useCallback(() => {}, []);
+    const handleSubmit = useCallback(async(data) => {
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                  'Accept': 'application/json, text/plain, */*',
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+        } catch (error) {
+
+        }
+    }, []);
 
     return (
         <>
