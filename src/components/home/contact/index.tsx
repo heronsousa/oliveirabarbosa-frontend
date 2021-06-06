@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import { Container } from '../../../styles/container';
 import { Row, ContactContainer, Info, ContactForm } from './styles';
-// import TextareaTest from '../../shared/textarea';
+import Textarea from '../../shared/form-textarea';
 import Input from '../../shared/form-input';
 
 export default function Contact() {
@@ -73,11 +73,11 @@ export default function Contact() {
                                 placeholder="Assunto"
                             />
                         </Row>
-                        {/* <TextareaTest
+                        <Textarea
                             name="message"
                             placeholder="Mensagem"
                             rows={5}
-                        /> */}
+                        />
 
                         <button>Enviar</button>
                     </ContactForm>
