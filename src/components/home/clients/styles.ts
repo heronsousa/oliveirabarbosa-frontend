@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ClientsBackground = styled.div`
-    padding: 70px 0;
+    padding: 30px 0;
     background: var(--brand-secondary) url('/rights.svg') no-repeat top right;
-    background-size: 70%;
+    background-size: 50%;
 `;
 
 export const OurQuote = styled.div`
@@ -14,7 +14,7 @@ export const OurQuote = styled.div`
     p, span { text-align: center; }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: 300;
         margin: 20px;
     }
@@ -36,7 +36,7 @@ export const OurQuote = styled.div`
 `;
 
 export const ClientsQuotes = styled.div`
-    margin-top: 55px;
+    margin-top: 50px;
 
     h1, > p { text-align: center; }
 
@@ -44,7 +44,7 @@ export const ClientsQuotes = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 12px 0 70px;
+        margin: 12px 0 30px;
         font-weight: 200;
 
         &::after{
@@ -82,7 +82,7 @@ export const ClientsQuotes = styled.div`
         > div:last-child {
             display: flex;
             justify-content: center;
-            margin-top: 100px;
+            margin-top: 40px;
 
             button {
                 width: 30px;

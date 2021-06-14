@@ -57,7 +57,7 @@ export const ContactFormContainer = styled(Form)`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 12px 0 70px;
+        margin: 12px 0 40px;
         font-weight: 200;
 
         &::after{
@@ -65,7 +65,7 @@ export const ContactFormContainer = styled(Form)`
             width: 80px;
             background: var(--background-default);
             height: 4px;
-            margin-top: 35px;
+            margin-top: 25px;
             border-radius: 2px;
         }
     }

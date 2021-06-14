@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Container } from '../../../styles/container';
 import { FooterBackground, FooterColumn, FooterSocials, FooterCredits } from './styles';
@@ -17,20 +18,18 @@ export default function Footer() {
                     <FooterColumn>
                         <h2>INSTITUCIONAL</h2>
                         <ul>
-                            <li><a href="">Quem Somos</a></li>
-                            <li><a href="">Nossa História</a></li>
-                            <li><a href="">Equipe</a></li>
-                            <li><a href="">Áreas de Atuação</a></li>
+                            <li><Link href={{pathname: '/sobre'}}>Quem Somos</Link></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao'}}>Áreas de Atuação</Link></li>
                         </ul>
                     </FooterColumn>
 
                     <FooterColumn>
                         <h2>ÁREAS DE ATUAÇÃO</h2>
                         <ul>
-                            <li><a href="">Direito Civil</a></li>
-                            <li><a href="">Direito do Consumidor</a></li>
-                            <li><a href="">Direito Previdenciário</a></li>
-                            <li><a href="">Direito Trabalhista</a></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao/civil'}}>Direito Civil</Link></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao/consumidor'}}>Direito do Consumidor</Link></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao/previdenciario'}}>Direito Previdenciário</Link></li>
+                            <li><Link href={{pathname: '/areas-de-atuacao/trabalhista'}}>Direito Trabalhista</Link></li>
                         </ul>
                     </FooterColumn>
 
@@ -51,33 +50,33 @@ export default function Footer() {
                     </FooterColumn>
 
                     <FooterSocials>
-                        <li>
-                            <a>
-                                <Image
-                                    src="/Instagram.svg"
-                                    width={25}
-                                    height={25}
-                                />
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <Image
-                                    src="/Facebook.svg"
-                                    width={25}
-                                    height={25}
-                                />
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <Image
-                                    src="/Twitter.svg"
-                                    width={25}
-                                    height={25}
-                                />
-                            </a>
-                        </li>
+                            <li>
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
+                                    <Image
+                                        src="/whatsapp.svg"
+                                        width={25}
+                                        height={25}
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/oliveirabarbosaadvogados/">
+                                    <Image
+                                        src="/Instagram.svg"
+                                        width={25}
+                                        height={25}
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/victor.oliveira.9212">
+                                    <Image
+                                        src="/Facebook.svg"
+                                        width={25}
+                                        height={25}
+                                    />
+                                </a>
+                            </li>
                     </FooterSocials>
                 </Container>
             </FooterBackground>

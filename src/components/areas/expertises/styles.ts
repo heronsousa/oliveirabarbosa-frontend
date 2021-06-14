@@ -30,7 +30,7 @@ export const Area = styled.button`
     padding: 40px 60px;
     text-align: left;
 
-    img { height: 85px }
+    img { height: 85px; }
 
     h2 {
         color: var(--text-secondary);
@@ -50,5 +50,6 @@ export const Area = styled.button`
         border-radius: 20px;
 
         h2, p { color: var(--text-primary); }
+        img { filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(66deg) brightness(106%) contrast(100%); }
     }
 `;

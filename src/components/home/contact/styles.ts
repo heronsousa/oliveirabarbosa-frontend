@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Form } from '@unform/web';
 
 export const ContactContainer = styled.div`
-    padding: 100px 0;
+    padding: 70px 0;
     background: var(--brand-secondary);
 
     > div {
@@ -57,7 +57,7 @@ export const ContactForm = styled(Form)`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 12px 0 70px;
+        margin: 12px 0 30px;
         font-weight: 200;
 
         &::after{
@@ -65,7 +65,7 @@ export const ContactForm = styled(Form)`
             width: 80px;
             background: var(--background-default);
             height: 4px;
-            margin-top: 35px;
+            margin-top: 25px;
             border-radius: 2px;
         }
     }
