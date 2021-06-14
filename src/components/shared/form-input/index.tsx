@@ -6,6 +6,8 @@ import React, {
     useCallback,
 } from 'react';
 import { useField } from '@unform/core';
+import InputMask from "react-input-mask";
+
 import { Container, Error } from './styles';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
@@ -42,11 +44,11 @@ export default function Input({ name, ...rest }: InputProps) {
             isFocused={isFocused}
             isFilled={isFilled}
         >
-            <input
+            <InputMask
+                mask={name==='phone' ? "(99) 99999-9999" : ''}
                 onFocus={handleInputFocus}
                 onBlur={handleInputBlur}
                 defaultValue={defaultValue}
-                ref={inputRef}
                 {...rest}
             />
 

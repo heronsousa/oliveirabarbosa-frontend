@@ -1,19 +1,10 @@
-import { useCallback, useRef } from 'react';
-import { FormHandles } from '@unform/core';
 import Image from 'next/image';
-import Link from 'next/link';
 
-// import Input from '../../shared/input';
-// import Textarea from '../../shared/textarea';
-
-import { PageHeader, Row, ContactContainer, Info, ContactForm, Socials, Localization } from './styles';
+import ContactForm from './../shared/contact-form/index';
+import { PageHeader, Row, ContactContainer, Info, Socials, Localization } from './styles';
 import { Container } from '../../styles/container';
 
 export default function ContactBody() {
-    const formRef = useRef<FormHandles>(null);
-
-    const handleSubmit = useCallback(() => {}, []);
-
     return(
         <>
             <Container>
@@ -37,7 +28,7 @@ export default function ContactBody() {
 
                         <Socials>
                             <li>
-                                <a>
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                                     <Image
                                         src="/whatsapp.svg"
                                         width={25}
@@ -46,7 +37,7 @@ export default function ContactBody() {
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a target="_blank" href="https://www.instagram.com/oliveirabarbosaadvogados/">
                                     <Image
                                         src="/Instagram.svg"
                                         width={25}
@@ -55,7 +46,7 @@ export default function ContactBody() {
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a target="_blank" href="https://www.facebook.com/victor.oliveira.9212">
                                     <Image
                                         src="/Facebook.svg"
                                         width={25}
@@ -66,47 +57,7 @@ export default function ContactBody() {
                         </Socials>
                     </Info>
 
-                    <ContactForm ref={formRef} onSubmit={handleSubmit}>
-                        <h1>Marque uma reunião</h1>
-                        <p>Deixe-nos uma mensagem e entraremos em contato</p>
-
-                        {/* <Row>
-                            <Input
-                                name="name"
-                                type="text"
-                                placeholder="Nome"
-                            />
-                            <Input
-                                name="last"
-                                type="text"
-                                placeholder="Sobrenome"
-                            />
-                        </Row>
-                        <Input
-                            name="email"
-                            type="text"
-                            placeholder="E-mail"
-                        />
-                        <Row>
-                            <Input
-                                name="phone"
-                                type="text"
-                                placeholder="Telefone"
-                            />
-                            <Input
-                                name="subject"
-                                type="text"
-                                placeholder="Assunto"
-                            />
-                        </Row>
-                        <Textarea
-                            name="message"
-                            placeholder="Mensagem"
-                            rows={5}
-                        /> */}
-
-                        <button>Enviar</button>
-                    </ContactForm>
+                    <ContactForm title="Marque uma reunião"/>
                 </Container>
             </ContactContainer>
 

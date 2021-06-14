@@ -18,7 +18,7 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
         subject: req.body.subject,
         text: req.body.message,
         html: `<div>
-                Nome: ${req.body.name} ${req.body.last}<br>
+                Nome: ${req.body.name}<br>
                 Telefone: ${req.body.phone}<br>
                 Email: ${req.body.email}<br>
                 Mensagem: ${req.body.message}<br>

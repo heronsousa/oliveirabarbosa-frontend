@@ -62,5 +62,6 @@ export const Area = styled.div`
         border-radius: 20px;
 
         h2, p { color: var(--text-primary); }
+        img { filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(66deg) brightness(106%) contrast(100%); }
     }
 `;

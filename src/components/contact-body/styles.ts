@@ -11,6 +11,16 @@ export const ContactContainer = styled.div`
         align-items: center;
         grid-template-columns: 1fr 1fr;
 
+        h1 {
+            font-weight: 300;
+        }
+
+        button {
+            background: var(--brand-secondary);
+
+            &:hover { background: ${lighten(0.05, '#262626')}; }
+        }
+
         @media(max-width: 992px) {
             grid-template-columns: 1fr;
         }
@@ -50,53 +60,6 @@ export const Info = styled.div`
     }
 `;
 
-export const ContactForm = styled(Form)`
-    grid-column: 2;
-    h1 { font-size: 25px; }
-    h1, > p { text-align: center; }
-
-    > p {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 12px 0 70px;
-        font-weight: 200;
-
-        &::after{
-            content: '';
-            width: 80px;
-            background: var(--background-default);
-            height: 4px;
-            margin-top: 35px;
-            border-radius: 2px;
-        }
-    }
-
-    > div {
-        margin-bottom: 8px;
-
-        div:first-child { margin-right: 8px }
-    }
-
-    button {
-        width: 100%;
-        padding: 16px 0;
-        margin-top: 25px;
-        color: var(--text-default);
-        border-radius: 10px;
-        background-color: var(--brand-secondary);
-        transition: background-color .2s ease-out;
-
-        &:hover { background: ${lighten(0.1, '#212121')}; }
-    }
-
-    @media(max-width: 992px) {
-        grid-column: 1;
-        grid-row: 1/2;
-        margin-bottom: 70px;
-    }
-`;
-
 export const PageHeader = styled.div`
     margin: 40px 0 60px;
 
@@ -112,57 +75,6 @@ export const PageHeader = styled.div`
         color: var(--text-secondary);
         font-weight: 300;
     }
-`;
-
-export const Topics = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-
-    @media(max-width: 992px) {
-        grid-template-columns: 1fr 1fr;
-    }
-    @media(max-width: 768px) {
-        grid-template-columns: 1fr;
-    }
-`;
-
-export const Topic = styled.div`
-    display: flex;
-    align-items: center;
-    width: auto;
-    border: 1px solid var(--border);
-    padding: 20px 30px;
-    border-radius: 6px;
-
-    h3 {
-        width: auto;
-        font-size: 1.125rem;
-        font-weight: 400;
-        color: var(--text-secondary);
-        margin-left: 10px;
-    }
-`;
-
-export const ContactButton = styled.a`
-    display: block;
-    width: 250px;
-    padding: 15px;
-    margin: 70px 0 90px;
-    border-radius: 30px;
-    background: var(--brand-primary);
-    color: var(--text-default);
-    text-align: center;
-    font-weight: 300;
-    font-size: 1.20rem;
-    transition: all .2s ease-out;
-
-    &:hover { background: var(--brand-tertiary); }
-`;
-
-export const Center = styled.div`
-    display: flex;
-    justify-content: center;
 `;
 
 export const Socials = styled.div`
@@ -181,6 +93,8 @@ export const Socials = styled.div`
         cursor: pointer;
 
         &:not(:last-child) { margin-right: 10px; }
+
+        &:hover { background: ${lighten(0.05, '#262626')}; }
 
         a { width: 25px; height: 25px; }
     }

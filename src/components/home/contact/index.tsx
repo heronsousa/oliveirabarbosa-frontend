@@ -1,34 +1,10 @@
-import { useCallback, useRef, useState } from 'react';
-import { FormHandles } from '@unform/core';
 import Image from 'next/image';
 
 import { Container } from '../../../styles/container';
-import { Row, ContactContainer, Info, ContactForm } from './styles';
-import Textarea from '../../shared/form-textarea';
-import Input from '../../shared/form-input';
+import ContactForm from '../../shared/contact-form';
+import { Row, ContactContainer, Info } from './styles';
 
 export default function Contact() {
-    const formRef = useRef<FormHandles>(null);
-    const [isSendingEmail, setIsSendingEmail] = useState(false);
-
-    const handleSubmit = useCallback(async(data) => {
-        setIsSendingEmail(true);
-
-        fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then((response) => {
-            console.log(response)
-            setIsSendingEmail(false);
-        }).catch((error) => {
-            console.error(error);
-        });
-    }, []);
-
     return (
         <>
             <ContactContainer>
@@ -44,57 +20,7 @@ export default function Contact() {
                         <span>(61) 98483-7473</span>
                     </Info>
 
-                    <ContactForm ref={formRef} onSubmit={handleSubmit}>
-                        <h1>CONTATO</h1>
-                        <p>Deixe-nos uma mensagem e entraremos em contato</p>
-
-                        <Row>
-                            <Input
-                                name="name"
-                                type="text"
-                                placeholder="Nome"
-                            />
-                            <Input
-                                name="last"
-                                type="text"
-                                placeholder="Sobrenome"
-                            />
-                        </Row>
-                        <Row>
-                            <Input
-                                name="email"
-                                type="text"
-                                placeholder="E-mail"
-                            />
-                            <Input
-                                name="phone"
-                                type="text"
-                                placeholder="Telefone"
-                            />
-                        </Row>
-                        <Input
-                            name="subject"
-                            type="text"
-                            placeholder="Assunto"
-                        />
-                        <Textarea
-                            name="message"
-                            placeholder="Mensagem"
-                            rows={5}
-                        />
-
-                        <button>
-                            { isSendingEmail ?
-                                <Image
-                                    src="/spinner.gif"
-                                    width={25}
-                                    height={25}
-                                />
-                                :
-                                <>Enviar</>
-                            }
-                        </button>
-                    </ContactForm>
+                    <ContactForm title="CONTATO"/>
                 </Container>
             </ContactContainer>
 
