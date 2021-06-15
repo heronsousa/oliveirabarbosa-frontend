@@ -4,6 +4,10 @@ export const ClientsBackground = styled.div`
     padding: 30px 0;
     background: var(--brand-secondary) url('/rights.svg') no-repeat top right;
     background-size: 50%;
+
+    @media(max-width: 992px) {
+        background-size: 150%;
+    }
 `;
 
 export const OurQuote = styled.div`
@@ -32,6 +36,10 @@ export const OurQuote = styled.div`
             content: '';
             background: var(--background-default);
         }
+    }
+
+    @media(max-width: 992px) {
+        p { margin: 20px 0 }
     }
 `;
 

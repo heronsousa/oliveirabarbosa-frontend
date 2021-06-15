@@ -11,11 +11,11 @@ export default function AboutBody() {
                 <PageHeader>
                     <h1>Sobre nós</h1>
 
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <p>O Escritório Oliveira Barbosa & Advogados Associados presta serviços jurídicos em diversas áreas do Direito, tendo uma equipe devidamente especializada e apta a trabalhar desde questões mais simples, até casos complexos, que exigem o envolvimento de profissionais de diversas áreas de atuação.</p>
                     <br/>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <p>O Escritório busca o atendimento por excelência nas mais variadas especialidades, tendo ampla atuação nas áreas do Direito do Trabalho, Direito do Consumidor, Direito Civil e Direito Previdenciário.</p>
                     <br/>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                    <p>Nosso objetivo é apresentar uma solução eficaz para cada situação de forma personalizada, atendendo as necessidades do cliente e prestando nosso serviço de forma ética, técnica e profissional.</p>
                 </PageHeader>
             </Container>
 
@@ -23,54 +23,64 @@ export default function AboutBody() {
                 <Container>
                     <Person>
                         <Image
-                            src="/person.jpg"
+                            src="/victor.jpg"
                             width={280}
                             height={390}
                         />
 
                         <PersonDescription>
                             <h2>Victor de Oliveira Varela</h2>
-                            <p>Bacharel em Direito com especialização em Direito Civil.</p>
+                            <p>Dr. Victor é advogado especialista em causas trabalhistas.</p>
                             <p>
-                                Formado pela Universidade de São Paulo, Victor é o sócio fundador da Oliveira Barbosa.
-                                Responsável pela área de Direito Civil, já atendeu mais de
-                                50 processos com mais de 90% de aproveitamento.
+                                Atuou por 2 anos como colaborador do Supremo Tribunal Federal em ações trabalhistas. É Pós-graduando em Direito do Trabalho e Processo do Trabalho. É Sócio Nominal e CEO do escritório de advocacia Oliveira Barbosa & Advogados Associados
                             </p>
                         </PersonDescription>
                     </Person>
 
                     <Person>
                         <Image
-                            src="/person.jpg"
+                            src="/gustavo.jpeg"
                             width={280}
                             height={390}
                         />
 
                         <PersonDescription>
-                            <h2>Victor de Oliveira Varela</h2>
-                            <p>Bacharel em Direito com especialização em Direito Civil.</p>
+                            <h2>Gustavo da Silva Palhares</h2>
+                            <p>Associado especialista em causas cíveis</p>
                             <p>
-                                Formado pela Universidade de São Paulo, Victor é o sócio fundador da Oliveira Barbosa.
-                                Responsável pela área de Direito Civil, já atendeu mais de
-                                50 processos com mais de 90% de aproveitamento.
+                                Atuou por 2 anos como colaborador na contadoria do Tribunal de Justiça do Distrito Federal na elaboração de pareceres e cálculos jurídicos.
                             </p>
                         </PersonDescription>
                     </Person>
 
                     <Person>
                         <Image
-                            src="/person.jpg"
+                            src="/marcello.jpeg"
                             width={280}
                             height={390}
                         />
 
                         <PersonDescription>
-                            <h2>Victor de Oliveira Varela</h2>
-                            <p>Bacharel em Direito com especialização em Direito Civil.</p>
+                            <h2>Marcello Layne Pereira Barbosa</h2>
+                            <p>Associado especialista em Contratos</p>
                             <p>
-                                Formado pela Universidade de São Paulo, Victor é o sócio fundador da Oliveira Barbosa.
-                                Responsável pela área de Direito Civil, já atendeu mais de
-                                50 processos com mais de 90% de aproveitamento.
+                                Atuou por 1 ano e meio como colaborador da Procuradoria Geral do Distrito Federal em causas de ressarcimento ao erário.
+                            </p>
+                        </PersonDescription>
+                    </Person>
+
+                    <Person>
+                        <Image
+                            src="/victor-b.jpeg"
+                            width={280}
+                            height={390}
+                        />
+
+                        <PersonDescription>
+                            <h2>Victor Batista da Silva</h2>
+                            <p>Associado especialista em causas de Família e Sucessões</p>
+                            <p>
+                            Atuou por 1 ano como colaborador do Juizado Especial Criminal da Ceilândia e por mais 1 ano na 6° Turma Cível e 2° Câmara Cível do Tribunal de Justiça do Distrito Federal . É Pós-graduando em Direito de Família e Sucessões.
                             </p>
                         </PersonDescription>
                     </Person>

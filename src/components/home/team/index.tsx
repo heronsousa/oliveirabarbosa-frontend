@@ -12,18 +12,16 @@ export default function Team() {
 
                 <Person>
                     <Image
-                        src="/person.jpg"
+                        src="/victor.jpg"
                         width={280}
                         height={390}
                     />
 
                     <PersonDescription>
                         <h2>Victor de Oliveira Varela</h2>
-                        <p>Bacharel em Direito com especialização em Direito Civil.</p>
+                        <p>Dr. Victor é advogado especialista em causas trabalhistas.</p>
                         <p>
-                            Formado pela Universidade de São Paulo, Victor é o sócio fundador da Oliveira Barbosa.
-                            Responsável pela área de Direito Civil, já atendeu mais de
-                            50 processos com mais de 90% de aproveitamento.
+                            Atuou por 2 anos como colaborador do Supremo Tribunal Federal em ações trabalhistas. É Pós-graduando em Direito do Trabalho e Processo do Trabalho. É Sócio Nominal e CEO do escritório de advocacia Oliveira Barbosa & Advogados Associados
                         </p>
                     </PersonDescription>
                 </Person>

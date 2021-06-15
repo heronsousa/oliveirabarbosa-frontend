@@ -9,7 +9,7 @@ export default function HomeBanner() {
         <BannerBackground>
             <Container>
                 <h1>Compromisso, eficência e inovação</h1>
-                <p>Nós cuidaremos do seu caso com dedicação total.</p>
+                <p>Receba uma orientação jurídica de <strong>altíssimo nível</strong> dos nossos <strong>advogados especialistas</strong></p>
 
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                     <Image

@@ -34,14 +34,14 @@ export default function Footer() {
                     </FooterColumn>
 
                     <FooterColumn>
-                        <h2>FALE DIRETAMENTE</h2>
-                        <span>(61) 98483-7473</span>
-                        <span>OliveiraAdvogados@meusite.com</span>
-
                         <h2>ATENDIMENTO</h2>
                         <ul>
-                            <li><a href="">Fale Conosco</a></li>
+                            <li><Link href={{pathname: '/contato'}}>Fale Conosco</Link></li>
                         </ul>
+
+                        <h2>FALE DIRETAMENTE</h2>
+                        <span>(61) 98483-7473</span>
+                        <span>oliveirabarbosaadvogados@gmail.com</span>
                     </FooterColumn>
 
                     <FooterColumn>

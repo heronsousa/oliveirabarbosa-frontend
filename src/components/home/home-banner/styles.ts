@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BannerBackground = styled.div`
-    padding: 100px 0;
+    padding: 100px 0 70px;
     background-image: url('/background.png'), linear-gradient(180deg, #171616 0%, #80808000 100%);
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,13 @@ export const BannerBackground = styled.div`
         text-align: center;
 
         h1 { font-size: 3rem; font-weight: 400; line-height: 1.2; }
-        p { font-size: 1.125rem; font-weight: 300; margin: 10px 0 40px }
+        p {
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin: 20px 0 40px;
+
+            strong { font-weight: bold; }
+        }
 
         a {
             display: flex;

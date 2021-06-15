@@ -34,14 +34,14 @@ export default function ContactForm( { title }: ContactFormProps ) {
                 timer: 5000,
                 timerProgressBar: true,
                 didOpen: (toast) => {
-                  toast.addEventListener('mouseenter', Swal.stopTimer)
-                  toast.addEventListener('mouseleave', Swal.resumeTimer)
+                    toast.addEventListener('mouseenter', Swal.stopTimer)
+                    toast.addEventListener('mouseleave', Swal.resumeTimer)
                 }
             })
 
             Toast.fire({
                 icon: 'success',
-                title: 'Mensagem enviada com sucesso'
+                title: 'Mensagem enviada com sucesso. Entraremos em contato o mais breve possível!'
             })
 
             setIsSendingEmail(false);

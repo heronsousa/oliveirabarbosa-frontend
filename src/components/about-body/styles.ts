@@ -30,6 +30,8 @@ export const Person = styled.div`
     border-radius: 10px;
     background: var(--brand-tertiary);
 
+    &:nth-child(2n) { background: var(--brand-primary); }
+
     &:not(:last-child) { margin-bottom: 40px; }
 
     > div { width: 280px!important }

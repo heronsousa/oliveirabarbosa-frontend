@@ -12,6 +12,8 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
         secure: true,
     });
 
+    console.log(req.body);
+
     const mailData = {
         from: req.body.email,
         to: 'heronrs1@gmail.com',
@@ -26,7 +28,7 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
     }
 
     transporter.sendMail(mailData, (err, info) => {
-        if(err) res.send(err);
-        else res.send(info);
+        if(err) res.json(err);
+        else res.json(info);
     })
 }
