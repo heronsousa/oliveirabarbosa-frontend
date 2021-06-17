@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         --disable: #666;
         --gold: #B9A05C;
         --border: #D9D9D9;
+        --line: #eaeaea;
 
         --red: #e83f5b;
         --red-light: #fff5f5;
@@ -20,7 +21,6 @@ export const GlobalStyle = createGlobalStyle`
         --purple: #5965e0;
         --purple-dark: #4953b8;
         --twitter: #2aa9e0;
-        --line: #dcdde0;
     }
 
     @media (max-width: 1080px) {

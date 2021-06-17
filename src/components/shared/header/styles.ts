@@ -2,11 +2,16 @@ import { lighten } from "polished";
 import styled from "styled-components";
 
 export const HeaderBackground = styled.div`
+    display: block;
     position: fixed;
     width: 100%;
     margin-bottom: 100px;
     z-index: 10;
     border-bottom: 1px solid var(--background-default);
+
+    @media(max-width: 992px) {
+        display: none;
+    }
 `;
 
 export const TopHeader = styled.div`
@@ -49,5 +54,10 @@ export const Links = styled.ul`
 `;
 
 export const HeaderSpace = styled.div`
+    display: block;
     height: 141px;
+
+    @media(max-width: 992px) {
+        display: none;
+    }
 `;

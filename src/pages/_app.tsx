@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: any) {
 	return (
         <>
             <GlobalStyle />
-            {/* <Header /> */}
+            <Header />
             <HeaderMobile />
             <Component {...pageProps} />
             <Footer />

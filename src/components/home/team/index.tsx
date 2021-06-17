@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import { Container } from '../../../styles/container';
 import { TeamContainer, Person, PersonDescription } from './styles';
+import Link from 'next/link';
 
 export default function Team() {
     return (
@@ -26,7 +27,7 @@ export default function Team() {
                     </PersonDescription>
                 </Person>
 
-                <a href="#">Conheça nossos colaboradores</a>
+                <Link href={{pathname: '/sobre'}}>Conheça nossos colaboradores</Link>
             </TeamContainer>
         </Container>
     );
