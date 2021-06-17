@@ -52,4 +52,9 @@ export const Area = styled.button`
         h2, p { color: var(--text-primary); }
         img { filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(66deg) brightness(106%) contrast(100%); }
     }
+
+    @media(max-width: 768px) {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
 `;
