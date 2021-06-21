@@ -24,8 +24,8 @@ export default function HeaderMobile() {
                         <Link href={{pathname: '/'}}>
                             <Image
                                 src="/logo.png"
-                                width={180}
-                                height={55}
+                                width={240}
+                                height={75}
                             />
                         </Link>
                     </Container>

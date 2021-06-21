@@ -16,7 +16,7 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
 
     const mailData = {
         from: req.body.email,
-        to: 'heronrs1@gmail.com',
+        to: 'oliveirabarbosaadvogados@gmail.com',
         subject: req.body.subject,
         text: req.body.message,
         html: `<div>

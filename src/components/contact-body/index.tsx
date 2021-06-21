@@ -18,7 +18,7 @@ export default function ContactBody() {
                 <Container>
                     <Info>
                         <h2>E-mail:</h2>
-                        <span>OliveiraAdvogados@meusite.com</span>
+                        <span>oliveirabarbosaadvogados@gmail.com</span>
 
                         <h2>Endereço:</h2>
                         <span>Coworkee - SMA, Conjunto B, Loja 19 Gama, Brasília/DF.</span>

@@ -8,7 +8,6 @@ export default function Expertises() {
         <>
             <PageHeader>
                 <h1>Áreas de atuação</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </PageHeader>
 
             <Areas>
@@ -21,9 +20,7 @@ export default function Expertises() {
                         />
                         <h2>Civil</h2>
                         <p>
-                            Direito Civil é o ramo do Direito que engloba o conjunto
-                            de normas jurídicas reponsáveis por regular os direitos e obrigações.
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Direito Civil é o ramo do Direito que engloba o conjunto de normas jurídicas responsáveis por regular os direitos e obrigações
                         </p>
                     </Area>
                 </Link>
@@ -37,9 +34,7 @@ export default function Expertises() {
                         />
                         <h2>Trabalhista</h2>
                         <p>
-                            Direito Civil é o ramo do Direito que engloba o conjunto
-                            de normas jurídicas reponsáveis por regular os direitos e obrigações.
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Esse direito é composto de conjuntos de normas, princípios e outras fontes jurídicas que regem as relações de trabalho.
                         </p>
                     </Area>
                 </Link>
@@ -53,9 +48,7 @@ export default function Expertises() {
                         />
                         <h2>Consumidor</h2>
                         <p>
-                            Direito Civil é o ramo do Direito que engloba o conjunto
-                            de normas jurídicas reponsáveis por regular os direitos e obrigações.
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            O direito do consumidor é muito presente na vida cotidiana de todos, seja quando se adquire algum bem trivial, como um lanche na padaria.
                         </p>
                     </Area>
                 </Link>
@@ -69,9 +62,7 @@ export default function Expertises() {
                         />
                         <h2>Previdenciário</h2>
                         <p>
-                            Direito Civil é o ramo do Direito que engloba o conjunto
-                            de normas jurídicas reponsáveis por regular os direitos e obrigações.
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Garante que a Seguridade Social seja respeitada, regendo as relações entre segurado e ente previdenciário.
                         </p>
                     </Area>
                 </Link>
