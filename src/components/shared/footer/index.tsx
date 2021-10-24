@@ -85,9 +85,8 @@ export default function Footer() {
                 <Container>
                     <span>2021 ® Oliviera e Associados - Todos os direitos reservados</span>
                     <span>
-                        Desenvolvido por
-                        {/* <a href="">Heron Rodrigues e</a>
-                        <a href="">Rita Castro</a> */}
+                        Desenvolvido por:
+                        <a href="https://www.linkedin.com/in/heronsousa/" target="_blank"> Heron Rodrigues</a>
                     </span>
                 </Container>
             </FooterCredits>
