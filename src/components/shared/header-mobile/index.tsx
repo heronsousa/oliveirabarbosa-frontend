@@ -17,6 +17,7 @@ export default function HeaderMobile() {
                     <Container>
                         <Image
                             src="/menu.png"
+                            alt="Abrir menu lateral"
                             width={30}
                             height={25}
                             onClick={() => setisSidebarOpen(true)}
@@ -24,6 +25,7 @@ export default function HeaderMobile() {
                         <Link href={{pathname: '/'}}>
                             <Image
                                 src="/logo.png"
+                                alt="Logo Oliveira Barbosa & Advogados Associados"
                                 width={240}
                                 height={75}
                             />
@@ -37,6 +39,7 @@ export default function HeaderMobile() {
                     <SidebarHeader>
                         <Image
                             src="/cancel.png"
+                            alt="Fechar menu lateral"
                             width={20}
                             height={20}
                             onClick={() => setisSidebarOpen(false)}

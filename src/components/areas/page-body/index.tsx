@@ -18,9 +18,10 @@ export default function PageBody({props}: PageBodyProps) {
 
             <Topics>
                 {props.topics.map(topic => (
-                    <Topic>
+                    <Topic key={topic}>
                         <Image
                             src="/check.svg"
+                            alt={topic}
                             width={18}
                             height={13}
                         />

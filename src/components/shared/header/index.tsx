@@ -12,6 +12,7 @@ export default function Header() {
                     <Container>
                         <Image
                             src="/marker.svg"
+                            alt="Nosso endereço"
                             width={13}
                             height={13}
                         />
@@ -24,6 +25,7 @@ export default function Header() {
                         <Link href={{pathname: '/'}}>
                             <Image
                                 src="/logo.png"
+                                alt="Logo Oliveira Barbosa & Advogados Associados"
                                 width={350}
                                 height={110}
                             />

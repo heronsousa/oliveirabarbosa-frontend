@@ -31,6 +31,7 @@ export default function ContactBody() {
                                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                                     <Image
                                         src="/whatsapp.svg"
+                                        alt="Entre em contato pelo whatsapp"
                                         width={25}
                                         height={25}
                                     />
@@ -40,6 +41,7 @@ export default function ContactBody() {
                                 <a target="_blank" href="https://www.instagram.com/oliveirabarbosaadvogados/">
                                     <Image
                                         src="/Instagram.svg"
+                                        alt="Conheça nosso instagram"
                                         width={25}
                                         height={25}
                                     />
@@ -49,6 +51,7 @@ export default function ContactBody() {
                                 <a target="_blank" href="https://www.facebook.com/victor.oliveira.9212">
                                     <Image
                                         src="/Facebook.svg"
+                                        alt="Entre em contato pelo facebook"
                                         width={25}
                                         height={25}
                                     />

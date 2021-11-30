@@ -87,6 +87,7 @@ export default function ContactForm( { title }: ContactFormProps ) {
                 { isSendingEmail ?
                     <Image
                         src="/spinner.gif"
+                        alt="Enviando"
                         width={25}
                         height={25}
                     />

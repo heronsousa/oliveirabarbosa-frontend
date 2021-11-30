@@ -24,6 +24,7 @@ export default function AboutBody() {
                     <Person>
                         <Image
                             src="/victor.jpg"
+                            alt="Dr. Victor de Oliveira Varela é advogado especialista em causas trabalhistas."
                             width={280}
                             height={390}
                         />
@@ -40,6 +41,7 @@ export default function AboutBody() {
                     <Person>
                         <Image
                             src="/gustavo.jpeg"
+                            alt="Gustavo da Silva Palhares. Associado especialista em causas cíveis"
                             width={280}
                             height={390}
                         />
@@ -56,6 +58,7 @@ export default function AboutBody() {
                     <Person>
                         <Image
                             src="/marcello.jpeg"
+                            alt="Marcello Layne Pereira Barbosa. Associado especialista em Contratos"
                             width={280}
                             height={390}
                         />
@@ -72,6 +75,7 @@ export default function AboutBody() {
                     <Person>
                         <Image
                             src="/victor-b.jpeg"
+                            alt="Victor Batista da Silva. Associado especialista em causas de Família e Sucessões"
                             width={280}
                             height={390}
                         />

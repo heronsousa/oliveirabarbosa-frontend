@@ -14,6 +14,7 @@ export default function Team() {
                 <Person>
                     <Image
                         src="/victor.jpg"
+                        alt="Victor de Oliveira Varela é advogado especialista em causas trabalhistas."
                         width={280}
                         height={390}
                     />

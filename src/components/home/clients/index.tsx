@@ -16,6 +16,7 @@ export default function Clients() {
                 <OurQuote>
                     <Image
                         src="/quote.svg"
+                        alt="Nosso objetivo"
                         width={30}
                         height={30}
                     />
@@ -48,6 +49,7 @@ export default function Clients() {
                                         <div>
                                             <Image
                                                 src="/quote.svg"
+                                                alt="Depoimento de um cliente"
                                                 width={30}
                                                 height={30}
                                             />
@@ -64,6 +66,7 @@ export default function Clients() {
                                         <div>
                                             <Image
                                                 src="/quote.svg"
+                                                alt="Depoimento de um cliente"
                                                 width={30}
                                                 height={30}
                                             />
@@ -80,6 +83,7 @@ export default function Clients() {
                                         <div>
                                             <Image
                                                 src="/quote.svg"
+                                                alt="Depoimento de um cliente"
                                                 width={30}
                                                 height={30}
                                             />
@@ -96,6 +100,7 @@ export default function Clients() {
                                         <div>
                                             <Image
                                                 src="/quote.svg"
+                                                alt="Depoimento de um cliente"
                                                 width={30}
                                                 height={30}
                                             />

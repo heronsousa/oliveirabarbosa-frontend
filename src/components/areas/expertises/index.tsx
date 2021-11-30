@@ -15,6 +15,7 @@ export default function Expertises() {
                     <Area>
                         <Image
                             src="/civil-right.svg"
+                            alt="Direito Civil"
                             width={30}
                             height={30}
                         />
@@ -29,6 +30,7 @@ export default function Expertises() {
                     <Area>
                         <Image
                             src="/work.svg"
+                            alt="Direito Trabalhista"
                             width={30}
                             height={30}
                         />
@@ -43,6 +45,7 @@ export default function Expertises() {
                     <Area>
                         <Image
                             src="/wallet.svg"
+                            alt="Direito do consumidor"
                             width={30}
                             height={30}
                         />
@@ -57,6 +60,7 @@ export default function Expertises() {
                     <Area>
                         <Image
                             src="/return.svg"
+                            alt="Direito Previdenciário"
                             width={30}
                             height={30}
                         />

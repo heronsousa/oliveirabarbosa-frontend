@@ -14,6 +14,7 @@ export default function HomeBanner() {
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                     <Image
                         src="/whatsapp.svg"
+                        alt="Falr conosco"
                         width={30}
                         height={30}
                     />

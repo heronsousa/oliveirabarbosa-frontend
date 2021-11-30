@@ -27,6 +27,7 @@ export default function Contact() {
             <Row>
                 <Image
                     src="/coworkee.webp"
+                    alt="Nosso escritório"
                     width={500}
                     height={300}
                 />
