@@ -1,5 +1,9 @@
 import { lighten } from "polished";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+export type HeaderProps = {
+    isOnTopOfThePage: boolean;
+}
 
 export const HeaderBackground = styled.div`
     display: block;
@@ -14,10 +18,24 @@ export const HeaderBackground = styled.div`
     }
 `;
 
-export const TopHeader = styled.div`
+export const TopHeader = styled.div<HeaderProps>`
     background: var(--brand-secondary);
     padding: 8px 0;
     border-bottom: 10px solid var(--brand-tertiary);
+    opacity: 1;
+    visibility: visible;
+    height: 2.75rem;
+    transition: all 0.2s ease;
+
+    ${(props) =>
+        !props.isOnTopOfThePage &&
+        css`
+            height: 0;
+            border-width: 0;
+            opacity: 0;
+            visibility: hidden;
+            padding: 0;
+        `};
 
     > div {
         display: flex;
@@ -27,7 +45,7 @@ export const TopHeader = styled.div`
     }
 `;
 
-export const BottomHeader = styled.div`
+export const BottomHeader = styled.div<HeaderProps>`
     background: var(--brand-secondary);
     padding: 10px 0;
 
@@ -36,7 +54,19 @@ export const BottomHeader = styled.div`
         align-items: center;
         justify-content: space-between;
 
-        img { cursor: pointer; }
+        img {
+            cursor: pointer;
+            width: 350px;
+            height: 110px;
+            transition: all 0.2s ease;
+
+            ${(props) =>
+                !props.isOnTopOfThePage &&
+                css`
+                    height: 50px;
+                    width: 150px;
+                `};
+        }
     }
 `;
 

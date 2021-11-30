@@ -91,6 +91,7 @@ export default function Footer() {
                     <span>
                         Desenvolvido por:
                         <a href="https://www.linkedin.com/in/heronsousa/" target="_blank"> Heron Rodrigues</a>
+                        {' '}
                         e
                         <a href="https://www.linkedin.com/in/rtcstr/" target="_blank">Rita Brilhante</a>
                     </span>

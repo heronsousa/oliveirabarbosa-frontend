@@ -3,12 +3,27 @@ import Link from 'next/link';
 
 import { Container } from '../../../styles/container';
 import { HeaderBackground, TopHeader, BottomHeader, Links, HeaderSpace } from './styles';
+import { useEffect, useState } from 'react';
 
 export default function Header() {
+    const [isOnTopOfThePage, setIsOnTopOfThePage] = useState(true);
+
+    useEffect(() => {
+        function handleScreenResize() {
+            setIsOnTopOfThePage(window.scrollY === 0);
+        }
+
+        window.addEventListener('scroll', handleScreenResize);
+
+        handleScreenResize();
+
+        return () => window.removeEventListener('scroll', handleScreenResize);
+    }, []);
+
     return (
         <>
             <HeaderBackground>
-                <TopHeader>
+                <TopHeader isOnTopOfThePage={isOnTopOfThePage}>
                     <Container>
                         <Image
                             src="/marker.svg"
@@ -20,7 +35,7 @@ export default function Header() {
                     </Container>
                 </TopHeader>
 
-                <BottomHeader>
+                <BottomHeader isOnTopOfThePage={isOnTopOfThePage}>
                     <Container>
                         <Link href={{pathname: '/'}}>
                             <Image
