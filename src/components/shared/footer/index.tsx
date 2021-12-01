@@ -51,6 +51,8 @@ export default function Footer() {
                         <span>Coworkee - SMA, Conjunto B, Loja 19 - Gama, Brasília/DF.</span>
                     </FooterColumn>
 
+                </Container>
+                <Container>
                     <FooterSocials>
                             <li>
                                 <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">

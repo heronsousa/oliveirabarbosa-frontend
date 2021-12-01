@@ -36,7 +36,7 @@ export const BottomHeader = styled.div`
         display: flex;
         align-items: center;
 
-        > div { margin-right: 20px!important; }
+        > span { margin-right: 20px!important; }
         img { cursor: pointer; }
     }
 `;

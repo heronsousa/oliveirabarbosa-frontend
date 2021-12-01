@@ -40,6 +40,10 @@ export const FooterColumn = styled.div`
     }
 
     a:hover { color: ${lighten(0.2, '#5E502E')}; }
+
+    @media(max-width: 992px) {
+        grid-column: 2/3;
+    }
 `;
 
 export const FooterSocials = styled.ul`
