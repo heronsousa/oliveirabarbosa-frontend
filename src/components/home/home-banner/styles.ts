@@ -36,7 +36,7 @@ export const BannerBackground = styled.div`
 
             &:hover { background: var(--brand-tertiary); }
 
-            > div { margin: 0 10px 0 0!important; }
+            > span { margin-right: 10px!important; }
         }
     }
 `;

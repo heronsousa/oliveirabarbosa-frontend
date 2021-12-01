@@ -30,8 +30,6 @@ export const Area = styled.button`
     padding: 40px 60px;
     text-align: left;
 
-    img { height: 85px; }
-
     h2 {
         color: var(--text-secondary);
         font-size: 1.75rem;

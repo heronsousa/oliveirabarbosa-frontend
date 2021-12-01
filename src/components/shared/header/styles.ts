@@ -56,15 +56,15 @@ export const BottomHeader = styled.div<HeaderProps>`
 
         img {
             cursor: pointer;
-            width: 350px;
-            height: 110px;
+            width: 350px!important;
+            height: 110px!important;
             transition: all 0.2s ease;
 
             ${(props) =>
                 !props.isOnTopOfThePage &&
                 css`
-                    height: 50px;
-                    width: 150px;
+                    height: 50px!important;
+                    width: 180px!important;
                 `};
         }
     }

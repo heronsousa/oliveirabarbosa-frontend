@@ -16,8 +16,8 @@ export default function Expertises() {
                         <Image
                             src="/civil-right.svg"
                             alt="Direito Civil"
-                            width={30}
-                            height={30}
+                            width={85}
+                            height={85}
                         />
                         <h2>Civil</h2>
                         <p>
@@ -31,8 +31,8 @@ export default function Expertises() {
                         <Image
                             src="/work.svg"
                             alt="Direito Trabalhista"
-                            width={30}
-                            height={30}
+                            width={85}
+                            height={85}
                         />
                         <h2>Trabalhista</h2>
                         <p>
@@ -46,8 +46,8 @@ export default function Expertises() {
                         <Image
                             src="/wallet.svg"
                             alt="Direito do consumidor"
-                            width={30}
-                            height={30}
+                            width={85}
+                            height={85}
                         />
                         <h2>Consumidor</h2>
                         <p>
@@ -61,8 +61,8 @@ export default function Expertises() {
                         <Image
                             src="/return.svg"
                             alt="Direito Previdenciário"
-                            width={30}
-                            height={30}
+                            width={85}
+                            height={85}
                         />
                         <h2>Previdenciário</h2>
                         <p>

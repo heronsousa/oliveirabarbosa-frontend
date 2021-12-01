@@ -43,8 +43,6 @@ export const Area = styled.div`
     padding: 40px 20px;
     cursor: pointer;
 
-    img { height: 70px }
-
     h2 {
         color: var(--text-secondary);
         font-size: 1.125rem;
