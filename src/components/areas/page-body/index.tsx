@@ -31,7 +31,7 @@ export default function PageBody({props}: PageBodyProps) {
             </Topics>
 
             <Center>
-                <ContactButton  target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
+                <ContactButton  target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                     Entre em contato
                 </ContactButton>
             </Center>

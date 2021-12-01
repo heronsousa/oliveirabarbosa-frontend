@@ -28,7 +28,7 @@ export default function ContactBody() {
 
                         <Socials>
                             <li>
-                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
+                                <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                                     <Image
                                         src="/whatsapp.svg"
                                         alt="Entre em contato pelo whatsapp"
@@ -38,7 +38,7 @@ export default function ContactBody() {
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.instagram.com/oliveirabarbosaadvogados/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oliveirabarbosaadvogados/">
                                     <Image
                                         src="/Instagram.svg"
                                         alt="Conheça nosso instagram"
@@ -48,7 +48,7 @@ export default function ContactBody() {
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/victor.oliveira.9212">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/victor.oliveira.9212">
                                     <Image
                                         src="/Facebook.svg"
                                         alt="Entre em contato pelo facebook"
@@ -72,6 +72,7 @@ export default function ContactBody() {
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.3648777541466!2d-48.05745288562252!3d-15.994510288927103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2b1553488be1%3A0x983f50238bf01e42!2sCoworkee%20-%20Seu%20Escrit%C3%B3rio%20Perto%20de%20Casa!5e0!3m2!1spt-BR!2sbr!4v1619408591073!5m2!1spt-BR!2sbr"
                             height="300" loading="lazy"
+                            title="Google Maps com a localização do nosso escritório"
                         >
                         </iframe>
 

@@ -25,6 +25,7 @@ export default function HeaderMobile() {
                         <Link href={{pathname: '/'}}>
                             <Image
                                 src="/logo.png"
+                                priority
                                 alt="Logo Oliveira Barbosa & Advogados Associados"
                                 width={240}
                                 height={75}

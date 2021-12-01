@@ -59,23 +59,27 @@ export default function ContactForm( { title }: ContactFormProps ) {
                 name="name"
                 type="text"
                 placeholder="Nome completo"
+                aria-label="Nome completo"
             />
             <Row>
                 <Input
                     name="email"
                     type="text"
                     placeholder="E-mail"
+                    aria-label="E-mail"
                 />
                 <Input
                     name="phone"
                     type="text"
                     placeholder="Telefone"
+                    aria-label="Telefone"
                 />
             </Row>
             <Input
                 name="subject"
                 type="text"
                 placeholder="Assunto"
+                aria-label="Assunto"
             />
             <Textarea
                 name="message"

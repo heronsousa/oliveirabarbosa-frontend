@@ -40,6 +40,7 @@ export default function Header() {
                         <Link href={{pathname: '/'}}>
                             <Image
                                 src="/logo.png"
+                                priority
                                 alt="Logo Oliveira Barbosa & Advogados Associados"
                                 width={350}
                                 height={110}

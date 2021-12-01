@@ -11,6 +11,7 @@ export default function Footer() {
                 <Container>
                     <Image
                         src="/logo.png"
+                        priority
                         alt="Logo Oliveira Barbosa & Advogados Associados"
                         width={330}
                         height={100}
@@ -52,7 +53,7 @@ export default function Footer() {
 
                     <FooterSocials>
                             <li>
-                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
+                                <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5561984837473&text=Ola!">
                                     <Image
                                         src="/whatsapp.svg"
                                         alt="Entre em contato pelo whatsapp"
@@ -62,7 +63,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.instagram.com/oliveirabarbosaadvogados/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oliveirabarbosaadvogados/">
                                     <Image
                                         src="/Instagram.svg"
                                         alt="Conheça nosso instagram"
@@ -72,7 +73,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/victor.oliveira.9212">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/victor.oliveira.9212">
                                     <Image
                                         src="/Facebook.svg"
                                         alt="Entre em contato pelo facebook"
@@ -90,10 +91,10 @@ export default function Footer() {
                     <span>2021 ® Oliviera e Associados - Todos os direitos reservados</span>
                     <span>
                         Desenvolvido por:
-                        <a href="https://www.linkedin.com/in/heronsousa/" target="_blank"> Heron Rodrigues</a>
+                        <a href="https://www.linkedin.com/in/heronsousa/" target="_blank" rel="noopener noreferrer"> Heron Rodrigues</a>
                         {' '}
                         e
-                        <a href="https://www.linkedin.com/in/rtcstr/" target="_blank">Rita Brilhante</a>
+                        <a href="https://www.linkedin.com/in/rtcstr/" target="_blank" rel="noopener noreferrer">Rita Brilhante</a>
                     </span>
                 </Container>
             </FooterCredits>
